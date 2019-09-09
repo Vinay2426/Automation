@@ -45,7 +45,7 @@ public class Test
         driver.findElement(By.name("register-button")).click();
         //close the browser
         Thread.sleep(5000); //it will wait for 5 seconds and after that it will move to next line.
-        //driver.close();
+        driver.close();
         //driver.quit();
     }
 }
